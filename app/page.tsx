@@ -41,7 +41,7 @@ export default function App() {
     <Authenticator>
       {({signOut,user}) => (
       <main>
-      <h1>My todos</h1>
+      <h1>Gestor de Proyectos - Tareas</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
@@ -56,7 +56,7 @@ export default function App() {
         Cerrar sesión
       </button>
       <div>
-        App successfully hosted. Try creating a new todo.
+        El aplicativo funciona correctamente.
         <br />
         <a>
           Gestor de proyectos - Tareas
