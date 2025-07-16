@@ -42,7 +42,7 @@ export default function App() {
       {({signOut,user}) => (
       <main>
       <h1>Gestor de Proyectos - Tareas</h1>
-      <button onClick={createTodo}>+ new</button>
+      <button onClick={createTodo}>añadir tarea</button>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}
